@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -17,9 +23,25 @@ aside img {
     height: auto;
 }
 
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
 main img {
     width: 150px;
     height: auto;
+}
+
+main img {
+    /* you most likely will have other CSS declarations here */
+    float: right;
 }
 
 p {
@@ -36,4 +58,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
